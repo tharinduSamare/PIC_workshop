@@ -1,0 +1,234 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F886 ]
+[d frameptr 6 ]
+"6 E:\software\pic\XC8\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"42 E:\software\pic\XC8\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"62 E:\software\pic\XC8\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 E:\software\pic\XC8\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"56 E:\software\pic\XC8\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 E:\software\pic\XC8\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"44 E:\software\pic\XC8\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"28 E:\software\pic\XC8\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"6 E:\software\pic\XC8\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"19 C:\Users\Samare\Desktop\pic_programming_workshop\codes\PWM.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"45
+[v _PWM_Initialize PWM_Initialize `(v  1 e 1 0 ]
+"65
+[v _set_PWM_duty_cycle set_PWM_duty_cycle `(v  1 e 1 0 ]
+"75
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"84
+[v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
+[s S89 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 TOUTPS 1 0 :4:3 
+]
+"712 E:\software\pic\XC8\include\pic16f886.h
+[s S93 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TOUTPS0 1 0 :1:3 
+`uc 1 TOUTPS1 1 0 :1:4 
+`uc 1 TOUTPS2 1 0 :1:5 
+`uc 1 TOUTPS3 1 0 :1:6 
+]
+[u S101 . 1 `S89 1 . 1 0 `S93 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES101  1 e 1 @18 ]
+"846
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @21 ]
+[s S50 . 1 `uc 1 CCP1M 1 0 :4:0 
+`uc 1 DC1B 1 0 :2:4 
+`uc 1 P1M 1 0 :2:6 
+]
+"887
+[s S54 . 1 `uc 1 CCP1M0 1 0 :1:0 
+`uc 1 CCP1M1 1 0 :1:1 
+`uc 1 CCP1M2 1 0 :1:2 
+`uc 1 CCP1M3 1 0 :1:3 
+`uc 1 DC1B0 1 0 :1:4 
+`uc 1 DC1B1 1 0 :1:5 
+`uc 1 P1M0 1 0 :1:6 
+`uc 1 P1M1 1 0 :1:7 
+]
+[s S63 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 CCP1Y 1 0 :1:4 
+`uc 1 CCP1X 1 0 :1:5 
+]
+[u S67 . 1 `S50 1 . 1 0 `S54 1 . 1 0 `S63 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES67  1 e 1 @23 ]
+"1157
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1164
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+[s S137 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1352
+[u S146 . 1 `S137 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES146  1 e 1 @133 ]
+"1397
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1459
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1881
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"2810
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2817
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"3227
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+[s S122 . 1 `uc 1 ANS0 1 0 :1:0 
+`uc 1 ANS1 1 0 :1:1 
+`uc 1 ANS2 1 0 :1:2 
+`uc 1 ANS3 1 0 :1:3 
+`uc 1 ANS4 1 0 :1:4 
+]
+"3241
+[u S128 . 1 `S122 1 . 1 0 ]
+[v _ANSELbits ANSELbits `VES128  1 e 1 @392 ]
+"3271
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3604
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @249 ]
+"3932
+[v _TRISB2 TRISB2 `VEb  1 e 0 @1074 ]
+"3948
+[v _TRISC2 TRISC2 `VEb  1 e 0 @1082 ]
+"9 C:\Users\Samare\Desktop\pic_programming_workshop\codes\PWM.X\main.c
+[v _PWM_freq PWM_freq `l  1 e 4 0 ]
+"10
+[v _init_pulse_width init_pulse_width `ui  1 e 2 0 ]
+"19
+[v _main main `(v  1 e 1 0 ]
+{
+"21
+[v main@pulse_width pulse_width `ui  1 a 2 66 ]
+"20
+[v main@adc_value adc_value `ui  1 a 2 64 ]
+"42
+} 0
+"45
+[v _PWM_Initialize PWM_Initialize `(v  1 e 1 0 ]
+{
+[v PWM_Initialize@PWM_freq PWM_freq `l  1 p 4 52 ]
+[v PWM_Initialize@init_pulse_width init_pulse_width `ui  1 p 2 56 ]
+"63
+} 0
+"65
+[v _set_PWM_duty_cycle set_PWM_duty_cycle `(v  1 e 1 0 ]
+{
+[v set_PWM_duty_cycle@duty duty `ui  1 p 2 46 ]
+"73
+} 0
+"28 E:\software\pic\XC8\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 8 ]
+"31
+} 0
+"44 E:\software\pic\XC8\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 41 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 45 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 40 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 32 ]
+"73
+} 0
+"62 E:\software\pic\XC8\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 27 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 31 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 30 ]
+[v ___ftmul@exp exp `uc  1 a 1 26 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 16 ]
+[v ___ftmul@f2 f2 `f  1 p 3 19 ]
+"157
+} 0
+"56 E:\software\pic\XC8\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 11 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 15 ]
+[v ___ftdiv@exp exp `uc  1 a 1 14 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 10 ]
+"56
+[v ___ftdiv@f2 f2 `f  1 p 3 0 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 3 ]
+"86
+} 0
+"42 E:\software\pic\XC8\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+{
+"44
+[v ___altoft@sign sign `uc  1 a 1 12 ]
+[v ___altoft@exp exp `uc  1 a 1 11 ]
+"42
+[v ___altoft@c c `l  1 p 4 6 ]
+"57
+} 0
+"62 E:\software\pic\XC8\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"6 E:\software\pic\XC8\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"11
+[v ___aldiv@quotient quotient `l  1 a 4 2 ]
+"12
+[v ___aldiv@sign sign `uc  1 a 1 1 ]
+[v ___aldiv@counter counter `uc  1 a 1 0 ]
+"6
+[v ___aldiv@divisor divisor `l  1 p 4 0 ]
+[v ___aldiv@dividend dividend `l  1 p 4 4 ]
+"42
+} 0
+"84 C:\Users\Samare\Desktop\pic_programming_workshop\codes\PWM.X\main.c
+[v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
+{
+[v ADC_Read@channel channel `uc  1 a 1 wreg ]
+[v ADC_Read@channel channel `uc  1 a 1 wreg ]
+"88
+[v ADC_Read@channel channel `uc  1 a 1 4 ]
+"94
+} 0
+"75
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"82
+} 0

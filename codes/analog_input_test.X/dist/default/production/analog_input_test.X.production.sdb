@@ -1,0 +1,83 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F886 ]
+[d frameptr 6 ]
+"62 E:\software\pic\XC8\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 E:\software\pic\XC8\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 E:\software\pic\XC8\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"13 C:\Users\Samare\Desktop\kalaniya_workshop\pic_programming_workshop\codes\analog_input_test.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"40
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"49
+[v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
+"226 E:\software\pic\XC8\include\pic16f886.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"1157
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1164
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+[s S55 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1352
+[u S64 . 1 `S55 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES64  1 e 1 @133 ]
+"1397
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"2810
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2817
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"3227
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+[s S40 . 1 `uc 1 ANS0 1 0 :1:0 
+`uc 1 ANS1 1 0 :1:1 
+`uc 1 ANS2 1 0 :1:2 
+`uc 1 ANS3 1 0 :1:3 
+`uc 1 ANS4 1 0 :1:4 
+]
+"3241
+[u S46 . 1 `S40 1 . 1 0 ]
+[v _ANSELbits ANSELbits `VES46  1 e 1 @392 ]
+"3271
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3604
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @249 ]
+"11 C:\Users\Samare\Desktop\kalaniya_workshop\pic_programming_workshop\codes\analog_input_test.X\main.c
+[v _ADC_limits ADC_limits `[8]ui  1 e 16 0 ]
+"13
+[v _main main `(v  1 e 1 0 ]
+{
+"27
+[v main@i i `uc  1 a 1 10 ]
+"14
+[v main@adc_value adc_value `ui  1 a 2 8 ]
+"37
+} 0
+"49
+[v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
+{
+[v ADC_Read@channel channel `uc  1 a 1 wreg ]
+[v ADC_Read@channel channel `uc  1 a 1 wreg ]
+"51
+[v ADC_Read@channel channel `uc  1 a 1 4 ]
+"57
+} 0
+"40
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"47
+} 0

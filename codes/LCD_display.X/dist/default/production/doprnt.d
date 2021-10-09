@@ -1,0 +1,1 @@
+ dist/default/production/doprnt.d  dist/default/production/doprnt.p1:  E:/software/pic/XC8/sources/common/doprnt.c
