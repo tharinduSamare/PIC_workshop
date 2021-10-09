@@ -1685,7 +1685,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;main.c: 67: duty = (uint16_t)(((float)duty/1023)*(4000000/(PWM_freq*4)));
 "67
 [e = _duty -> * / -> _duty `f -> -> 1023 `i `f -> / -> 4000000 `l * _PWM_freq -> -> 4 `i `l `f `ui ]
-[; ;main.c: 69: CCP1CONbits.DC1B = duty & 0x03;
+[; ;main.c: 69: CCP1CONbits.DC1B = duty & 0b00000011;
 "69
 [e = . . _CCP1CONbits 0 1 -> & _duty -> -> 3 `i `ui `uc ]
 [; ;main.c: 70: CCPR1L = duty>>2;

@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\Samare\AppData\Local\Temp\s16g.obj
+$C:\Users\Samare\AppData\Local\Temp\saf4.obj
 end_init CODE 0 0 0 3 2
 config CONFIG 0 2007 2007 2 2
 $dist/default/production\PWM.X.production.obj
@@ -78,23 +78,23 @@ STRING 800-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\PWM.X.production.obj
-7DA cinit CODE >277:C:\Users\Samare\AppData\Local\Temp\s16g.
-7DA cinit CODE >280:C:\Users\Samare\AppData\Local\Temp\s16g.
-7DA cinit CODE >300:C:\Users\Samare\AppData\Local\Temp\s16g.
-7DF cinit CODE >301:C:\Users\Samare\AppData\Local\Temp\s16g.
-7E0 cinit CODE >302:C:\Users\Samare\AppData\Local\Temp\s16g.
-7E5 cinit CODE >303:C:\Users\Samare\AppData\Local\Temp\s16g.
-7E6 cinit CODE >304:C:\Users\Samare\AppData\Local\Temp\s16g.
-7EB cinit CODE >305:C:\Users\Samare\AppData\Local\Temp\s16g.
-7EC cinit CODE >306:C:\Users\Samare\AppData\Local\Temp\s16g.
-7F1 cinit CODE >307:C:\Users\Samare\AppData\Local\Temp\s16g.
-7F2 cinit CODE >308:C:\Users\Samare\AppData\Local\Temp\s16g.
-7F7 cinit CODE >309:C:\Users\Samare\AppData\Local\Temp\s16g.
-7F8 cinit CODE >310:C:\Users\Samare\AppData\Local\Temp\s16g.
-7FB cinit CODE >311:C:\Users\Samare\AppData\Local\Temp\s16g.
-7FC cinit CODE >317:C:\Users\Samare\AppData\Local\Temp\s16g.
-7FC cinit CODE >319:C:\Users\Samare\AppData\Local\Temp\s16g.
-7FD cinit CODE >320:C:\Users\Samare\AppData\Local\Temp\s16g.
+7DA cinit CODE >277:C:\Users\Samare\AppData\Local\Temp\saf4.
+7DA cinit CODE >280:C:\Users\Samare\AppData\Local\Temp\saf4.
+7DA cinit CODE >300:C:\Users\Samare\AppData\Local\Temp\saf4.
+7DF cinit CODE >301:C:\Users\Samare\AppData\Local\Temp\saf4.
+7E0 cinit CODE >302:C:\Users\Samare\AppData\Local\Temp\saf4.
+7E5 cinit CODE >303:C:\Users\Samare\AppData\Local\Temp\saf4.
+7E6 cinit CODE >304:C:\Users\Samare\AppData\Local\Temp\saf4.
+7EB cinit CODE >305:C:\Users\Samare\AppData\Local\Temp\saf4.
+7EC cinit CODE >306:C:\Users\Samare\AppData\Local\Temp\saf4.
+7F1 cinit CODE >307:C:\Users\Samare\AppData\Local\Temp\saf4.
+7F2 cinit CODE >308:C:\Users\Samare\AppData\Local\Temp\saf4.
+7F7 cinit CODE >309:C:\Users\Samare\AppData\Local\Temp\saf4.
+7F8 cinit CODE >310:C:\Users\Samare\AppData\Local\Temp\saf4.
+7FB cinit CODE >311:C:\Users\Samare\AppData\Local\Temp\saf4.
+7FC cinit CODE >317:C:\Users\Samare\AppData\Local\Temp\saf4.
+7FC cinit CODE >319:C:\Users\Samare\AppData\Local\Temp\saf4.
+7FD cinit CODE >320:C:\Users\Samare\AppData\Local\Temp\saf4.
 2FE text11 CODE >75:C:\Users\Samare\Desktop\pic_programming_workshop\codes\PWM.X\main.c
 2FE text11 CODE >77:C:\Users\Samare\Desktop\pic_programming_workshop\codes\PWM.X\main.c
 302 text11 CODE >78:C:\Users\Samare\Desktop\pic_programming_workshop\codes\PWM.X\main.c
@@ -290,10 +290,10 @@ __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 __CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\PWM.X.production.obj
 __Hstrings 0 0 ABS 0 strings -
 __size_of_set_PWM_duty_cycle 0 0 ABS 0 - dist/default/production\PWM.X.production.obj
-___sp 0 0 STACK 2 stack C:\Users\Samare\AppData\Local\Temp\s16g.obj
+___sp 0 0 STACK 2 stack C:\Users\Samare\AppData\Local\Temp\saf4.obj
 _main 7BA 0 CODE 0 maintext dist/default/production\PWM.X.production.obj
 btemp 7E 0 ABS 0 - dist/default/production\PWM.X.production.obj
-start 0 0 CODE 0 init C:\Users\Samare\AppData\Local\Temp\s16g.obj
+start 0 0 CODE 0 init C:\Users\Samare\AppData\Local\Temp\saf4.obj
 __size_of___aldiv 0 0 ABS 0 - dist/default/production\PWM.X.production.obj
 __size_of___ftdiv 0 0 ABS 0 - dist/default/production\PWM.X.production.obj
 __size_of___ftmul 0 0 ABS 0 - dist/default/production\PWM.X.production.obj
@@ -306,12 +306,12 @@ ___ftdiv@f3 2B 0 BANK0 1 cstackBANK0 dist/default/production\PWM.X.production.ob
 __LidataBANK0 0 0 ABS 0 idataBANK0 -
 __Hpowerup 0 0 CODE 0 powerup -
 __size_of_ADC_Read 0 0 ABS 0 - dist/default/production\PWM.X.production.obj
-intlevel0 0 0 ENTRY 0 functab C:\Users\Samare\AppData\Local\Temp\s16g.obj
-intlevel1 0 0 ENTRY 0 functab C:\Users\Samare\AppData\Local\Temp\s16g.obj
-intlevel2 0 0 ENTRY 0 functab C:\Users\Samare\AppData\Local\Temp\s16g.obj
-intlevel3 0 0 ENTRY 0 functab C:\Users\Samare\AppData\Local\Temp\s16g.obj
-intlevel4 0 0 ENTRY 0 functab C:\Users\Samare\AppData\Local\Temp\s16g.obj
-intlevel5 0 0 ENTRY 0 functab C:\Users\Samare\AppData\Local\Temp\s16g.obj
+intlevel0 0 0 ENTRY 0 functab C:\Users\Samare\AppData\Local\Temp\saf4.obj
+intlevel1 0 0 ENTRY 0 functab C:\Users\Samare\AppData\Local\Temp\saf4.obj
+intlevel2 0 0 ENTRY 0 functab C:\Users\Samare\AppData\Local\Temp\saf4.obj
+intlevel3 0 0 ENTRY 0 functab C:\Users\Samare\AppData\Local\Temp\saf4.obj
+intlevel4 0 0 ENTRY 0 functab C:\Users\Samare\AppData\Local\Temp\saf4.obj
+intlevel5 0 0 ENTRY 0 functab C:\Users\Samare\AppData\Local\Temp\saf4.obj
 __size_of_ADC_Initialize 0 0 ABS 0 - dist/default/production\PWM.X.production.obj
 ___aldiv@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\PWM.X.production.obj
 wtemp0 7E 0 ABS 0 - dist/default/production\PWM.X.production.obj
@@ -357,7 +357,7 @@ _TRISC2 43A 0 ABS 0 - dist/default/production\PWM.X.production.obj
 ___ftpack 860 0 CODE 0 text8 dist/default/production\PWM.X.production.obj
 ___ftpack@arg 70 0 COMMON 1 cstackCOMMON dist/default/production\PWM.X.production.obj
 ___ftpack@exp 73 0 COMMON 1 cstackCOMMON dist/default/production\PWM.X.production.obj
-___int_sp 0 0 STACK 2 stack C:\Users\Samare\AppData\Local\Temp\s16g.obj
+___int_sp 0 0 STACK 2 stack C:\Users\Samare\AppData\Local\Temp\saf4.obj
 __end_of___ftpack 938 0 CODE 0 text8 dist/default/production\PWM.X.production.obj
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
@@ -406,7 +406,7 @@ __CFG_BOR4V$BOR40V 0 0 ABS 0 - dist/default/production\PWM.X.production.obj
 ?_ADC_Read 70 0 COMMON 1 cstackCOMMON dist/default/production\PWM.X.production.obj
 __CFG_FOSC$INTRC_NOCLKOUT 0 0 ABS 0 - dist/default/production\PWM.X.production.obj
 __Lintentry 0 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Samare\AppData\Local\Temp\s16g.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Samare\AppData\Local\Temp\saf4.obj
 __pdataBANK0 64 0 BANK0 1 dataBANK0 dist/default/production\PWM.X.production.obj
 ?___altoft 26 0 BANK0 1 cstackBANK0 dist/default/production\PWM.X.production.obj
 set_PWM_duty_cycle@duty 4E 0 BANK0 1 cstackBANK0 dist/default/production\PWM.X.production.obj
@@ -426,8 +426,8 @@ __Lconfig 400E 0 CONFIG 0 config -
 __CFG_CP$OFF 0 0 ABS 0 - dist/default/production\PWM.X.production.obj
 __CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\PWM.X.production.obj
 ___lwtoft@c 78 0 COMMON 1 cstackCOMMON dist/default/production\PWM.X.production.obj
-stackhi 0 0 ABS 0 - C:\Users\Samare\AppData\Local\Temp\s16g.obj
-stacklo 0 0 ABS 0 - C:\Users\Samare\AppData\Local\Temp\s16g.obj
+stackhi 0 0 ABS 0 - C:\Users\Samare\AppData\Local\Temp\saf4.obj
+stacklo 0 0 ABS 0 - C:\Users\Samare\AppData\Local\Temp\saf4.obj
 ?___lwtoft 78 0 COMMON 1 cstackCOMMON dist/default/production\PWM.X.production.obj
 _set_PWM_duty_cycle B72 0 CODE 0 text2 dist/default/production\PWM.X.production.obj
 __Lspace_0 0 0 ABS 0 - -

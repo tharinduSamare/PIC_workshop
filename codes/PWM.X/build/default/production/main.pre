@@ -2185,7 +2185,7 @@ void set_PWM_duty_cycle(uint16_t duty){
 if(duty<1023){
 duty = (uint16_t)(((float)duty/1023)*(4000000/(PWM_freq*4)));
 
-CCP1CONbits.DC1B = duty & 0x03;
+CCP1CONbits.DC1B = duty & 0b00000011;
 CCPR1L = duty>>2;
 }
 return;

@@ -66,7 +66,7 @@ void set_PWM_duty_cycle(uint16_t duty){
     if(duty<1023){
         duty = (uint16_t)(((float)duty/1023)*(_XTAL_FREQ/(PWM_freq*TMR2PRESCALE))); // On reducing //duty = (((float)duty/1023)*(1/PWM_freq)) / ((1/_XTAL_FREQ) * TMR2PRESCALE);
         
-        CCP1CONbits.DC1B = duty & 0x03; // store lsb 2 bits
+        CCP1CONbits.DC1B = duty & 0b00000011; // store lsb 2 bits
         CCPR1L = duty>>2;// Store the remining 8 bit
     }
     return;

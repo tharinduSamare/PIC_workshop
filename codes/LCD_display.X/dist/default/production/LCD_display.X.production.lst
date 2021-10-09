@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC LITE Macro Assembler V1.45 build -152302408 
-                                                                                               Sat Oct 09 16:16:22 2021
+                                                                                               Sat Oct 09 20:16:51 2021
 
 Microchip Technology Omniscient Code Generator v1.45 (Free mode) build 201711160504
      1                           	processor	16F886
@@ -8572,7 +8572,7 @@ EEDATA             100      0       0       0        0.0%
 
 
 Microchip Technology PIC Macro Assembler V1.45 build -152302408 
-Symbol Table                                                                                   Sat Oct 09 16:16:22 2021
+Symbol Table                                                                                   Sat Oct 09 20:16:51 2021
 
                         pc 0002             ___bmul@product 0025                __CFG_CP$OFF 0000  
                        l30 111B                         l31 111F                         l32 1120  
